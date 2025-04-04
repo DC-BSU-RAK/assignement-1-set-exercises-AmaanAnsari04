@@ -1,0 +1,25 @@
+.webcontent{
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 10px;
+    gap: 5px;
+}
+
+.ingredients {
+    border:3px solid gray;
+    box-sizing: border-box;
+    width: 30%;
+    height: auto;
+    background-color: rgb(219, 223, 172);
+    padding: 20px;   
+}
+
+.method {
+    border: 3px solid gray;
+    box-sizing: border-box;
+    width: 70%;
+    height: auto;
+    background-color: rgb(219, 223, 172);
+    padding: 20px;
+       
+}
