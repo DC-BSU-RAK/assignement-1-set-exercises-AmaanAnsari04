@@ -1,0 +1,20 @@
+/*copy of onepage style sheet */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 10px;
+    overflow: hidden;
+    background-color: #333;
+    color: #F9C043;
+  }
+li h1{
+  float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 34px 15px;
+    text-decoration: none;
+    float: right;
+  }
