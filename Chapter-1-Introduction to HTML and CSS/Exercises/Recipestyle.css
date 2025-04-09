@@ -1,11 +1,11 @@
-.webcontent{
+.webcontent{ 
     box-sizing: border-box;
     display: flex;
     margin-top: 10px;
     gap: 5px;
 }
 
-.ingredients {
+.ingredients { /* creating and adjusting border for ingredients */
     border:3px solid gray;
     box-sizing: border-box;
     width: 30%;
@@ -14,7 +14,7 @@
     padding: 20px;   
 }
 
-.method {
+.method { /* creating and adjusting border for method */
     border: 3px solid gray;
     box-sizing: border-box;
     width: 70%;
