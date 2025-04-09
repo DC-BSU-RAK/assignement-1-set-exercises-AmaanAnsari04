@@ -1,0 +1,20 @@
+ul { /*For all the text on top */
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 10px;
+    overflow: hidden;
+    background-color: #333;
+    color: #F9C043;
+  }
+
+li h1{ /*places the game title to the top left */
+  float: left;
+}
+
+li a { /*for the links on the top right*/
+    display: block;
+    color: white;
+    padding: 34px 15px;
+    text-decoration: none;
+    float: right;
+  }
