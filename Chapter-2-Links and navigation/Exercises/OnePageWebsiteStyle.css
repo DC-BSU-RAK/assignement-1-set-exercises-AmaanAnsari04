@@ -5,7 +5,35 @@ ul { /*For all the text on top */
     overflow: hidden;
     background-color: #333;
     color: #F9C043;
-  }
+}
+
+#plot { 
+    padding: 15px 10px;
+    background-color: #4d4d4d;
+    color: rgba(255, 255, 255, 0.814);
+    text-decoration: underline 10px #F9C043;
+}
+
+#characters { 
+    padding: 15px 10px;
+    background-color: #4d4d4d;
+    color: rgba(255, 255, 255, 0.814);
+    text-decoration: underline 10px #F9C043;
+}
+
+#cast { 
+    padding: 15px 10px;
+    background-color: #4d4d4d;
+    color: rgba(255, 255, 255, 0.814);
+    text-decoration: underline 10px #F9C043;  
+}
+
+#reviews { 
+    padding: 15px 10px;
+    background-color: #4d4d4d;
+    color: rgba(255, 255, 255, 0.814);
+    text-decoration: underline 10px #F9C043;  
+}
 
 li h1{ /*places the game title to the top left */
   float: left;
@@ -17,4 +45,8 @@ li a { /*for the links on the top right*/
     padding: 34px 15px;
     text-decoration: none;
     float: right;
-  }
+}
+
+body {
+  background-color: rgb( 224, 224, 187);
+}
