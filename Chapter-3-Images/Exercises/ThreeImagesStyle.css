@@ -1,0 +1,27 @@
+.images{
+    height: 100vh; /*takes up the full screen of browser*/
+    display: flex; /*uses flexbox to put them in a row*/
+    justify-content: center; /*Horizonally aligns to the center*/
+    align-items: center; /*Vertically alligns to the center*/
+    gap: 10px; /*adds gap between images*/
+}
+
+img{
+    outline: 2px solid white; /*adds white outline to images*/
+    filter: brightness(1.0) contrast(1.4); /*adds filters to the images*/
+
+}
+
+.imagebox{
+    text-align: center; /*centers the text for the images*/
+}
+
+.license {
+    color: white; /*makes text color white*/
+    padding: 10px
+    
+}
+
+body{
+    background-color: rgb(0, 0, 0); /*makes the whole background black*/
+}
