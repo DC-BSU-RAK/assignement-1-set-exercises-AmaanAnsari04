@@ -1,0 +1,12 @@
+body{
+    display: flex;  /*flexbox layout*/
+    height: 100vh;  /*full viewport height*/
+    background-color: black; 
+    justify-content: center; /*center horizontally*/
+    align-items: center; /*center vertically*/
+}
+
+video{
+    width: 70%; /*makes video 70 percent of total page width*/
+    border: 2px solid white;  /*add small white border*/
+}
