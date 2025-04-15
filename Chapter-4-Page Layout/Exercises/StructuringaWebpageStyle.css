@@ -1,0 +1,103 @@
+*{                          /*makes default margin and padding into 0*/
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 { /*main heading*/
+    text-decoration: underline 5px solid white; /*adds white underline*/
+    text-underline-offset: 8px; /*space between underline and text*/
+    font-family: Tahoma;
+    font-weight: 700;   /*thickness of the font*/
+    font-size: 55px;
+}   
+
+header{ 
+    color: #FFFFFF;             /*sets default text colour to white*/
+    background-color: #17072b;
+    text-align: center;            /*Brings the text to the center*/
+    padding: 30px;
+}
+
+nav ul{
+    list-style: none;           /*removes bullet points*/
+    display: flex;              /*puts the items in a row*/
+    justify-content: center;    /*Centers the list*/
+    padding: 20px;
+    margin-top: 20px;           /*adds space from the top*/
+}
+
+nav li {
+    padding-left: 35px;
+    font-size: 35px;
+}
+
+body{ 
+    font-family: Arial; /*defauly font for body*/
+    font-weight: 400;
+}
+
+article {
+    width: 950px;       /*fixed width for content*/
+    margin: 40px;
+}
+
+article h2{ /*welcome heading*/
+    color: #000000; 
+    text-decoration: underline 3px solid #000000 ; /*gives black underline*/
+    text-underline-offset: 7px;     /*adds space between text and underline*/
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+article p { /*welcome paragraph*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+main{
+    display: flex;          /*makes the layout side by side*/
+    align-items: center;    /*alligns the layout vertically*/
+}
+
+aside{ /*sidebar styling*/
+    margin-left: -15px; /*Pushes sidebar to the right*/
+    background-color: #172d67;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 500px;
+    padding-inline-start: 35px; /*adds space to the left on the inside*/
+    height: 550px;
+}
+
+aside h2{ /*Heading for sidebar*/
+    text-decoration: underline solid #FFFFFF;
+    font-size: 40px;
+    text-underline-offset: 8px;
+    margin-bottom: 20px;
+}
+
+aside ul { /*List in sidebar*/
+    list-style: none;
+    font-size: 25px;
+    padding-block: 20px;
+}
+
+aside li{ /*list spacing in sidebar */
+    margin-bottom: 20px;
+}
+
+.Sideimages{ /*adjusts images in sidebar*/
+    display: flex;
+    gap: 10px;
+    margin-top: 65px;
+}
+
+footer{ /*styling for footer*/
+    background-color: #8c15e9;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    padding: 7px;
+    margin-top: -25px;
+}
